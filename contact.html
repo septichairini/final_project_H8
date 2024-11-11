@@ -57,7 +57,8 @@
           <div class="wrap">
             <div class="contactForm">
               <h2>SEND US A MESSAGE</h2>
-              <form>
+              <div id="message"></div>
+              <form id="contactForm">
                 <input type="text" name="name" placeholder="Name..." />
                 <input type="text" name="email" placeholder="Email..." />
                 <input type="text" name="subject" placeholder="Subject..." />
@@ -66,9 +67,29 @@
                   type="submit"
                   class="submitBtn sBtn"
                   value="Send a Message"
+                  onclick="showMessage(event); return false;"
                 />
               </form>
             </div>
+
+            <script>
+              function showMessage(event) {
+                event.preventDefault();
+                const form = document.getElementById("contactForm");
+                const name = form.elements["name"].value;
+                const email = form.elements["email"].value;
+                const subject = form.elements["subject"].value;
+                const message = form.elements["message"].value;
+                const messageDiv = document.getElementById("message");
+                messageDiv.innerHTML += `
+                  <p>Name: ${name}</p>
+                  <p>Email: ${email}</p>
+                  <p>Subject: ${subject}</p>
+                  <p>Message: ${message}</p>
+                  <hr />
+                `;
+              }
+            </script>
             <div class="contactInfo">
               <h2>CONTACT INFO</h2>
               <div class="clear"></div>
