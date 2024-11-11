@@ -1,0 +1,353 @@
+/*--about--*/
+/*  GRID OF Content and sidebar   ============================================================================= */
+.cont {
+  display: block;
+  float: left;
+}
+.lsidebar {
+  display: block;
+  float: left;
+  margin: 0% 2.6% 0% 0;
+}
+.span_2_of_about {
+  width: 65.1%;
+}
+.span_1_of_about {
+  width: 32.2%;
+}
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+  .wrap {
+    width: 95%;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) {
+  .wrap {
+    width: 95%;
+  }
+  .cont {
+    margin: 1% 0 1% 0%;
+  }
+  .lsidebar {
+    margin: 0;
+  }
+  .span_2_of_about {
+    width: 94%;
+    padding: 3%;
+  }
+  .span_1_of_about {
+    width: 94%;
+    padding: 3%;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .wrap {
+    width: 95%;
+  }
+  .cont {
+    margin: 1% 0 1% 0%;
+  }
+  .lsidebar {
+    margin: 0;
+  }
+  .span_2_of_about {
+    width: 92%;
+    padding: 4%;
+  }
+  .span_1_of_about {
+    width: 92%;
+    padding: 4%;
+  }
+}
+.span_2_of_about h2 {
+  text-transform: uppercase;
+  color: #5a595d;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.span_2_of_about h3 {
+  font-weight: 600;
+  color: #5a595d;
+  font-size: 0.89em;
+  margin-bottom: 20px;
+}
+/*  GRID OF TWO   ============================================================================= */
+.col_1_of_2 {
+  display: block;
+  float: left;
+  margin: 0% 0 0% 2.6%;
+}
+.col_1_of_2:first-child {
+  margin-left: 0;
+}
+.span_1_of_2 {
+  width: 48.2%;
+}
+.span_1_of_2 p {
+  font-size: 0.8125em;
+  color: #000;
+  line-height: 1.7em;
+}
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+  .wrap {
+    width: 95%;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+  .wrap {
+    width: 95%;
+  }
+  .col_1_of_2 {
+    margin: 1% 0 1% 0%;
+  }
+  .span_1_of_2 {
+    width: 94%;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .wrap {
+    width: 95%;
+  }
+  .span_2_of_2 {
+    width: 100%;
+  }
+  .col_1_of_2 {
+    margin: 2% 0 2% 0%;
+  }
+  .span_1_of_2 {
+    width: 92%;
+    padding: 4%;
+  }
+}
+.skills li {
+  width: 100%;
+  height: 38px;
+  background: #424147;
+  margin-bottom: 20px;
+}
+.percentage {
+  float: left;
+  background: #000;
+  height: 30px;
+  color: #ffea00;
+  padding: 8px 10px 0 10px;
+  font-size: 1.2em;
+}
+.percent-text {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 74%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text1 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 70%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text2 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 60%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text3 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 65%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text4 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 68%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text5 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 65%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text6 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 50%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.percent-text7 {
+  background: #ffea00;
+  height: 33px;
+  float: left;
+  width: 65%;
+  color: #424147;
+  font-size: 1.4em;
+  padding: 5px 20px 0;
+}
+.about-middle {
+  text-align: center;
+  padding-top: 40px;
+}
+.about-middle h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about-middle h4 span {
+  background: #424147;
+  color: #ffea00;
+  padding: 5px 40px;
+}
+.about-middle p {
+  color: #000;
+  font-size: 0.99em;
+  padding: 30px 0;
+}
+/*  GRID OF FOUR   ============================================================================= */
+.col_1_of_about-grids {
+  display: block;
+  float: left;
+  margin: 0% 0 0% 9.6%;
+}
+.col_1_of_about-grids:first-child {
+  margin-left: 0;
+} /* all browsers except IE6 and lower */
+.span_1_of_about-grids {
+  width: 17.8%;
+}
+.span_1_of_about-grids img {
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -o-border-radius: 200px;
+  border: 4px solid #ffea00;
+}
+.span_1_of_about-grids h3 {
+  color: #ffea00;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.2;
+  cursor: pointer;
+  font-weight: normal;
+  margin-top: 5px;
+  background: #424147;
+  text-transform: uppercase;
+}
+.span_1_of_about-grids h3:hover {
+  background: #222;
+}
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+  .wrap {
+    width: 95%;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+  .wrap {
+    width: 95%;
+  }
+  .col_1_of_about-grids {
+    margin: 1% 0 1% 0%;
+  }
+  .span_1_of_about-grids {
+    width: 94%;
+    padding: 3%;
+  }
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .wrap {
+    width: 95%;
+  }
+  .col_1_of_about-grids {
+    margin: 1% 0 1% 0%;
+  }
+  .span_1_of_about-grids {
+    width: 92%;
+    padding: 4%;
+  }
+}
+.team1 {
+  margin-bottom: 40px;
+}
+
+/*--contact--*/
+.contact-to input[type="text"] {
+  padding: 10px 10px;
+  width: 29.4%;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  border: 1px solid #e1e2e2;
+  color: #000;
+  background: #fff;
+  float: left;
+  outline: none;
+  font-size: 0.89em;
+}
+.contact {
+  padding: 50px 0 30px;
+}
+.contact-list li {
+  margin: 10px 0 20px;
+}
+.contact-list li img {
+  float: left;
+  margin-right: 20px;
+}
+.contact-list li p {
+  width: 85.5%;
+  float: left;
+  padding: 0;
+  font-size: 0.89em;
+}
+span.yellow1 a {
+  color: #ffea00;
+  background: #424147;
+  padding: 5px 10px;
+}
+.span_2_of_contact {
+  width: 60.1%;
+  margin-right: 4.6%;
+}
+.text2 input[type="text"],
+.text2 textarea {
+  width: 96.6%;
+  margin: 10px 0;
+  border: 1px solid #e1e2e2;
+  color: #000;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  outline: none;
+  margin-bottom: 25px;
+  height: 100px;
+  padding: 10px 10px;
+  font-size: 0.89em;
+}
